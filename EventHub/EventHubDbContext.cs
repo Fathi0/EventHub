@@ -33,7 +33,7 @@ namespace EventHub
         }
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            optionsBuilder.UseSqlServer("server = .;Database = TEST01;Trusted_Connection=true; TrustServerCertificate=true;");
+            optionsBuilder.UseSqlServer("server = .;Database = EventHub;Trusted_Connection=true; TrustServerCertificate=true;");
         }
 
        public DbSet<Attendee> Attendees { get; set; }
