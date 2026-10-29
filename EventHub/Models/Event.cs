@@ -14,5 +14,7 @@ namespace EventHub.Models
         public DateTime StartDate { get; set; }
         public DateTime? EndDate { get; set; }
         public int MaxAttendees { get; set; }
+        public int OrganizerId { get; set; }
+        public Organizer organizer { get; set; }
     }
 }

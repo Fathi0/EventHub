@@ -17,7 +17,8 @@ namespace EventHub.Models
         public int BadgeNumber { get; set; }
         public DateTime IssuedDate { get; set; }
         public BadgeTier Tier { get; set; }
-
+        public int AttendeeId { get; set; }
+        public Attendee attendee { get; set; }
 
 
     }

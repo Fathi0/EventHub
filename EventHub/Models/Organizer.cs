@@ -21,6 +21,8 @@ namespace EventHub.Models
 
         public bool Verified { get; set; }
 
+        public OrganizerProfile organizerProfile { get; set; }
+        public List<Event> events { get; set; }
 
 
     }

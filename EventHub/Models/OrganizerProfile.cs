@@ -12,7 +12,8 @@ namespace EventHub.Models
         public string Biography { get; set; }
         public string WebsiteUrl { get; set; }
         public string Logo { get; set; }
-
+        public int OrganizerId { get; set; }
+        public Organizer organizer { get; set; }
 
     }
 }

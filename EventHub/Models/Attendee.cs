@@ -33,6 +33,7 @@ namespace EventHub.Models
 
 [NotMapped]
         public string FullAddress { get; }
+        public Badge badge { get; set; }
 
     }
 }
